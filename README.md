@@ -1,5 +1,8 @@
 # FedAWARE
 
+ Code for paper "[On the Power of Adaptive Weighted Aggregation in Heterogeneous Federated Learning and Beyond](https://arxiv.org/abs/2310.02702)".
+
+
 ## Dependencies
 
  `pip install -r requirement.txt`
@@ -32,3 +35,16 @@ For Agnews task, please run ```python agnews_dataset.py``` to preprocess Agnews 
 
 Note:
 see utils.py FedAWARE_Projector class for our implementation details.
+Please cite our paper if you found the code useful.
+
+```
+@misc{zeng2024poweradaptiveweightedaggregation,
+      title={On the Power of Adaptive Weighted Aggregation in Heterogeneous Federated Learning and Beyond}, 
+      author={Dun Zeng and Zenglin Xu and Shiyu Liu and Yu Pan and Qifan Wang and Xiaoying Tang},
+      year={2024},
+      eprint={2310.02702},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2310.02702}, 
+}
+```
